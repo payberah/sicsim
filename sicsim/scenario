@@ -1,0 +1,43 @@
+##################################################################
+# Note: There should be at least one space between key and value #
+##################################################################
+
+### Scenario 1 ###
+type: monitor
+monitor: sicsim.samples.helloworld.OverlayMonitor
+---
+### Scenario 2 ###
+type: lottery
+peer: sicsim.samples.helloworld.Peer
+link: sicsim.network.links.ReliableLink
+count: 20
+interval: 10
+join: 4
+leave: 0
+failure: 1
+---
+### Scenario 3 ###
+type: delay
+delay: 500
+---
+### Scenario 4 ###
+type: lottery
+peer: sicsim.samples.helloworld.Peer
+link: sicsim.network.links.ReliableLink
+count: 2
+interval: 10
+join: 0
+leave: 1
+failure: 0
+---
+### Scenario 5 ###
+type: signal
+count: 15
+interval: 10
+signal: 1
+---
+### Scenario 6 ###
+type: signal
+count: 5
+interval: 10
+signal:2

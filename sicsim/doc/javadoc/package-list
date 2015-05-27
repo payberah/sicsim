@@ -1,0 +1,11 @@
+sicsim.config
+sicsim.core.scenario
+sicsim.core.scenario.events
+sicsim.core.scheduler
+sicsim.main
+sicsim.network.core
+sicsim.network.links
+sicsim.network.peers
+sicsim.streaming
+sicsim.types
+sicsim.utils

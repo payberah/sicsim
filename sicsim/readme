@@ -1,0 +1,27 @@
+SICSIM version 0.9
+
+SICSIM is published under the terms of the GPL version 2 or any later version.
+
+To compile the simulator you can use the ant file attached to the source code.
+
+Comile the code:
+> ant -f build.xml compile
+
+Create jar file:
+> ant -f build.xml jar
+
+To run the simualtor either from the build path or jar file:
+> java -cp build sicsim.main.Main
+or
+> java -cp dist/lib/sicsim.jar sicsim.main.Main
+
+More information about SICSIM:
+- doc/sicsim.pdf: Detail information about how to work with SICSIM.
+- doc/javadoc: Description about SICSIM's APIs.
+
+Contact:
+- amir@sics.se
+- fatemeh@sics.se
+- tallat@sics.se
+
+Thanks Mikael Högqvist for the ant file :)
